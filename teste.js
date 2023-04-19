@@ -1,14 +1,5 @@
-    const numero = 0;
+function calcularMedia(nota1, nota2) {
+    const media = (nota1 + nota2) / 2;
+}
 
-    let numeroPar;
-
-    if (numero % 2 == 0)
-    {
-        numeroPar = "sim";
-    }
-    else {
-        numeroPar = "nao";
-    }
-
-    console.log("O numero digitado é par: "+numeroPar);
-    
+console.log(calcularMedia(5, 5));
