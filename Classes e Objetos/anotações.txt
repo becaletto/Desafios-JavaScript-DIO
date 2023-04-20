@@ -1,0 +1,41 @@
+    // Classe
+    class Pessoa {
+        nome;
+        idade;
+
+        constructor(nome, idade) {
+            this.nome = nome;
+            this.idade = idade;
+        }
+
+        descrever() {
+            console.log('Olá, meu nome é ' + this.nome, ' e tenho ' + this.idade ,' anos.');
+        }
+    }
+
+    const yuri = new Pessoa('Yuri', 8);
+    yuri.descrever();
+
+    const tatiane = new Pessoa('Tatiane', 30);
+    tatiane.descrever();
+
+
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //Objeto
+    const kaua = {
+    nome: 'Kauã Dias Becaletto',
+    idade: 16,
+
+    descrever: function() {
+        console.log('Olá, meu nome é ' + this.nome + ' e tenho ' + this.idade + ' anos.');
+    }
+}
+
+    console.log(kaua.nome);
+    console.log(kaua.idade);
+    console.log(kaua);
+
+    kaua.descrever();
+
